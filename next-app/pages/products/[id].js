@@ -34,7 +34,7 @@ export async function getStaticPaths() {
 
 const Product = ({product}) => {
     const router = useRouter();
-    const {id} = router.query
+    const {id} = router.query;
 
     return (
         <div className={styles.center}> 
